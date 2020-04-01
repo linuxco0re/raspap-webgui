@@ -32,11 +32,11 @@
 # as you leave these references intact in the header comments of your source files.
 
 # Set defaults
-repo="billz/raspap-webgui"
+repo="linuxco0re/raspap-webgui"
 branch="master"
 assume_yes=0
 ovpn_option=1
-readonly RASPAP_LATEST=$(curl -s "https://api.github.com/repos/$repo/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")' )
+readonly RASPAP_LATEST=$(curl -s "https://api.github.com/repos/billz/raspap-webgui/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")' )
 
 # Define usage notes
 usage=$(cat << EOF
