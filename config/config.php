@@ -13,7 +13,7 @@ define('RASPI_DNSMASQ_CONFIG', '/etc/dnsmasq.d/090_raspap.conf');
 define('RASPI_DNSMASQ_LEASES', '/var/lib/misc/dnsmasq.leases');
 define('RASPI_HOSTAPD_CONFIG', '/etc/hostapd/hostapd.conf');
 define('RASPI_DHCPCD_CONFIG', '/etc/dhcpcd.conf');
-define('RASPI_WPA_SUPPLICANT_CONFIG', '/etc/wpa_supplicant/wpa_supplicant.conf');
+define('RASPI_WPA_SUPPLICANT_CONFIG', '/etc/wpa_supplicant/wpa_supplicant-wlan1.conf');
 define('RASPI_HOSTAPD_CTRL_INTERFACE', '/var/run/hostapd');
 define('RASPI_WPA_CTRL_INTERFACE', '/var/run/wpa_supplicant');
 define('RASPI_OPENVPN_CLIENT_CONFIG', '/etc/openvpn/client/client.conf');
